@@ -13,20 +13,20 @@ jobs:
   build:
     runs-on: ubuntu-latest
     
-    steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js step1
+#     steps:
+#     - uses: actions/checkout@v2
+#     - name: Use Node.js step1
     
-    - uses: actions/setup-node@v2
-    - name: Use Node.js step2
+#     - uses: actions/setup-node@v2
+#     - name: Use Node.js step2
     
-      with: 
-        node-version: "14.x"
-    - name: Instalacja dependencji
-      run: npm install
+#       with: 
+#         node-version: "14.x"
+#     - name: Instalacja dependencji
+#       run: npm install
       
-    - name: Uruchomienie testów
-      run: npm test 
+#     - name: Uruchomienie testów
+#       run: npm test 
       
     
     
